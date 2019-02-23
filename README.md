@@ -1,5 +1,5 @@
 ## poly_ROI_selector
-A ROI selector for ROI selection by polygon, convex polygon, rotated bounding box, bounding box
+A ROI selector for ROI selection by polygon, convex polygon, minimum rotated bounding box, bounding box
 Useful for object annotation, text annotation, object detection, OCR etc.
 
 ## Usage
@@ -16,7 +16,7 @@ Useful for object annotation, text annotation, object detection, OCR etc.
 
 `Yellow line`  ->  **convex polygon**
 
-`blue box`     ->  **rotated bounding box**
+`blue box`     ->  **minimum rotated bounding box**
 
 `pink box`     ->  **bounding box**
 
