@@ -39,7 +39,6 @@ class orientedROISelector(object):
         self.__backup = self.img.copy()
 
         self.ROIs = []
-
         self.__polygon = []
 
         self.m_idle = 0
@@ -47,7 +46,6 @@ class orientedROISelector(object):
         self.mode = self.m_idle
 
         self.windowName = windowName
-        self.__prev = ()
 
         if windowName != None:
             cv2.setMouseCallback(self.windowName, self.click)
@@ -58,6 +56,8 @@ class orientedROISelector(object):
 
     def resetCanvas(self, img):
         self.img = img
+        self.__backup = self.img.copy()
+        self.ROIs = []
         self.__polygon = []
 
         self.mode = self.m_idle
