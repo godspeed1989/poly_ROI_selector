@@ -18,8 +18,8 @@ while True:
     # and reset the canvas with that image. You can then have separate ROI handlers
     # for each image separately and can navigate through the a dataset either way.
     if k == ord('r'):
-        ROISelector.resetCanvas(clone.copy())
         print(ROISelector.ROIs)
+        ROISelector.resetCanvas(clone.copy())
     elif k == (27):
         break
 cv2.destroyAllWindows()
