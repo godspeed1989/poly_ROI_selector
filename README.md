@@ -1,11 +1,16 @@
 ## poly_ROI_selector
-A ROI selector for ROI selection by polygon, convex polygon, minimum rotated bounding box, bounding box
-Useful for object annotation, text annotation, object detection, OCR etc.
+It is ROI selector for ROI selection using polygon.
+
+After selected, it generates convex polygon, minimum rotated bounding box and bounding box.
+
+This tool is useful for object annotation, text annotation, object detection, OCR etc.
 
 ## Usage
 `Left click` Start a new ploygon or add another point
 
 `Right click` Enclose a ploygon
+
+`r` clear all
 
 ## example
 <img src="example.png" width="600">
